@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #B8BED0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    /* background-color: #EEE1EB;
+     */
+     /* background-color: #FDB518; */
+     background-color: #B8BED0;
+}
+
+.left {
+    width: 70%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.lupper {
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+}
+
+.lupper img {
+    width: 100%;
+    /* height: 100%; */
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+
+.llower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.l img {
+    width: 25px;
+
+}
+.l h5 {
+    /* color:#6FBCE9 ; */
+    color:#44ade9 ;
+}
+
+.llower h2 {
+    color:#44ade9 ;
+}
+
+
+.right {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0%;
+    right: 0%;
+}
+
+
+.rightupper {
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    /* border: 1px solid #ED7564; */
+    border-left: transparent;
+    border-bottom: transparent;
+    position: relative;
+    
+}
+
+.nav  {
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h3 {
+    color:#FDB518 ;
+    margin-left: 20px;
+}
+
+.nav img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.rightlower{
+    width: 100%;
+    height: 30%;
+}
+
+
+.rightlower img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.namel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.namel img {
+    width: 20px;
+    color: #FDB518;
+}
+
+.namel h5 {
+    color: #44ade9;
+}
+
+
+#n {
+    width: 40px;
+    position: absolute;
+    bottom: 3%;
+    left: 45%;
+
+}
+
+
